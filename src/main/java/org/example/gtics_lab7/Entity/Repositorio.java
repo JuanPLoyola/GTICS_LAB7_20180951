@@ -9,7 +9,7 @@ import lombok.Setter;
 @Table(name = "resources")
 @Getter
 @Setter
-public class repositorio {
+public class Repositorio {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
